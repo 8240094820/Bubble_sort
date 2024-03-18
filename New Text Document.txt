@@ -1,0 +1,14 @@
+def bublesort(x,l):
+    for i in range(0,l):
+        for j in range(0,l-1):
+            if x[j]>x[j+1]:
+                s=x[j]
+                x[j]=x[j+1]
+                x[j+1]=c
+        
+    return
+
+x=[9,3,6,8,2,1,7,4]
+l=len(x)
+bublesort(x,l)
+print(x)
